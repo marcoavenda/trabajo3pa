@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #220000;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Sección del encabezado */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #ffcc00;
+}
+
+/* Sección de videos */
+.video-section {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.video-item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video-item iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-description {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Redes sociales */
+.social-footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
